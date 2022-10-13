@@ -1,0 +1,15 @@
+.nv-btn {
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 5px;
+}
+
+.nav-btn-btn {
+    border-right: 1px solid rgb(130, 130, 130);
+}
+
+
+/* req div */
+
+.shadow-req {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

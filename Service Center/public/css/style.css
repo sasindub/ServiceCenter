@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* font-family: 'Mulish', sans-serif; */
+    transition: all 0.5s;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--blue-color), var(--pink-color));
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--paragraph-color);
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.pt-250 {
+    padding-top: 175px;
+}
+
+.pt-200 {
+    padding-top: 160px;
+}
+
+
+/* div */
+
+.details {
+    width: 300px;
+    height: 50vh;
+    position: fixed;
+    bottom: 20vh;
+    left: 80px;
+    background: white;
+    border-radius: 10px;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(1);
+}
+
+.divHead {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.divHead-h1 {
+    font-size: 14pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1mm;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.addReq {
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+}
+
+
+/* logo */
+
+.logo {
+    position: fixed;
+    left: 30px;
+    width: 300px;
+    top: 30px;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(1);
+}
+
+
+/* nav */
+
+.nav {
+    position: fixed;
+    right: 40px;
+    width: 400px;
+    top: 30px;
+    background-color: white;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(1);
+}
+
+.navItem {
+    border-right: 1px solid rgb(232, 232, 232);
+    transition: 0.6s;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.navItemS {
+    border-right: 1px solid rgb(232, 232, 232);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 1px;
+    cursor: pointer;
+}
+
+.navItemE {
+    border-right: 1px solid rgb(232, 232, 232);
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    cursor: pointer;
+}
+
+.navItem:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+
+/* request page */
+
+.br-header {
+    font-size: 17pt;
+    letter-spacing: 0.1mm;
+    font-weight: 600;
+}
+
+.home-link {
+    text-decoration: none;
+    color: black;
+}
+
+.email-form {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 257px;
+    border-radius: 3px;
+    outline: dashed 2px black;
+}
+
+.mail {
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/* request form */
+
+.rform-input {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+input[type=text]:focus {
+    border-color: dodgerBlue;
+}
+
+textarea:focus {
+    border-color: dodgerBlue;
+}
+
+textarea {
+    height: 42px;
+}
+
+select:focus {
+    border-color: dodgerBlue;
+}
+
+select {
+    cursor: pointer;
+}
+
+
+/* success msg */
+
+.smsg {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 100px;
+}
